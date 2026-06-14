@@ -7,7 +7,7 @@ import os
 import numpy as np
 import pandas as pd
 
-from styles.theme import inject_css
+
 from utils.ensemble import load_all_models, ensemble_predict, get_ensemble_explanation
 from utils.frequency_analysis import (
     analyze_frequency_domain,
@@ -26,7 +26,7 @@ st.set_page_config(
     layout="centered"
 )
 
-inject_css()
+
 st.markdown('<div class="scan-line"></div>', unsafe_allow_html=True)
 
 # ─────────────────────────────────────────
